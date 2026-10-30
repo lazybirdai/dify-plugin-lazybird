@@ -1,0 +1,13 @@
+model: lazybird-tts
+label:
+  en_US: Lazybird TTS
+model_type: tts
+model_properties:
+  default_voice: tgJ2Hes6DauwTg8kFrRPLN
+  voices:
+    - mode: tgJ2Hes6DauwTg8kFrRPLN
+      name: Elyssia
+      language: [en-US]
+  audio_type: mp3
+  word_limit: 2000
+  max_workers: 3

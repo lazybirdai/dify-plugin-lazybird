@@ -1,0 +1,39 @@
+provider: lazybird
+label:
+  en_US: Lazybird
+description:
+  en_US: Text to speech with 500+ realistic AI voices in 150+ languages and accents, plus your own cloned voices.
+icon_small:
+  en_US: icon.svg
+icon_large:
+  en_US: icon-large.svg
+icon_large_dark:
+  en_US: icon-large-dark.svg
+background: "#FCF5EE"
+help:
+  title:
+    en_US: Get your API key from Lazybird
+  url:
+    en_US: https://lazybird.app/studio/settings
+supported_model_types:
+  - tts
+configurate_methods:
+  - predefined-model
+provider_credential_schema:
+  credential_form_schemas:
+    - variable: api_key
+      label:
+        en_US: API Key
+      type: secret-input
+      required: true
+      placeholder:
+        en_US: Enter your Lazybird API key
+models:
+  tts:
+    predefined:
+      - "models/tts/*.yaml"
+extra:
+  python:
+    provider_source: provider/lazybird.py
+    model_sources:
+      - models/tts/tts.py

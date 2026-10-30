@@ -1,0 +1,40 @@
+version: 0.0.1
+type: plugin
+author: lazybird
+name: lazybird
+label:
+  en_US: Lazybird
+description:
+  en_US: Realistic AI voices for your Dify apps. 500+ voices in 150+ languages and accents, plus your own cloned voices.
+icon: icon.svg
+created_at: "2026-10-30T00:00:00Z"
+resource:
+  memory: 268435456
+  permission:
+    model:
+      enabled: true
+      llm: false
+      text_embedding: false
+      rerank: false
+      tts: true
+      speech2text: false
+      moderation: false
+plugins:
+  models:
+    - provider/lazybird.yaml
+meta:
+  version: 0.0.1
+  arch:
+    - amd64
+    - arm64
+  runner:
+    language: python
+    version: "3.12"
+    entrypoint: main
+  minimum_dify_version: 1.0.0
+network:
+  domains:
+    - api.lazybird.app
+privacy: PRIVACY.md
+repo: https://github.com/lazybirdai/dify-plugin-lazybird
+contact: support@lazybird.app
