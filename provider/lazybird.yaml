@@ -2,7 +2,7 @@ provider: lazybird
 label:
   en_US: Lazybird
 description:
-  en_US: Text to speech with 500+ realistic AI voices in 150+ languages and accents, plus your own cloned voices.
+  en_US: Text to speech with realistic AI voices in 80 languages, plus your own cloned and designed voices.
 icon_small:
   en_US: icon.svg
 icon_large:

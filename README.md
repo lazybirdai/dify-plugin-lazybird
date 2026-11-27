@@ -1,6 +1,6 @@
 # Lazybird for Dify
 
-Give your Dify apps a realistic voice. This model plugin adds [Lazybird](https://lazybird.app) as a text to speech provider: 500+ AI voices in 150+ languages and accents, plus any voice you cloned or designed in Lazybird.
+Give your Dify apps a realistic voice. This model plugin adds [Lazybird](https://lazybird.app) as a text to speech provider: realistic AI voices in 80 languages, plus any voice you cloned or designed in Lazybird.
 
 Lazybird is an AI voiceover generator with a [text to speech API](https://lazybird.app/text-to-speech-api). The free plan includes 3,000 credits to start, no credit card needed.
 
